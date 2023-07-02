@@ -25,7 +25,7 @@ const Services = () => {
       <div>
         <SectionTitle title={"Services"}></SectionTitle>
       </div>
-      <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:ml-48 mx-5">
+      <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:ml-48 md:ml-20 mx-5">
         {servicesData.map((service) => (
           <div onMouseOver={handelMouseHover} key={service.id} className="card-container">
             <div className="card w-96 h-full bg-base-100 shadow-xl hover:shadow-2xl hover:shadow-slate-400">

@@ -9,7 +9,7 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}
-        className=" md:w-[850px] lg:mt-24 mt-5 lg:ml-60"
+        className=" md:w-[850px] lg:w-[1070px] lg:mt-24 mt-5 lg:ml-60"
       >
         <h1 className="text-5xl font-bold  mt-5">Welcome !!</h1>
         <h1 className="lg:text-2xl text-xl font-bold mt-8">My name is,</h1>

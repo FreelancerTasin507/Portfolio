@@ -3,7 +3,7 @@ import "./Projects.css";
 
 const Projects = () => {
   return (
-    <div className="mt-56">
+    <div className="mt-56 ">
       <div>
         <SectionTitle title={"Projects"}></SectionTitle>
       </div>
@@ -23,7 +23,7 @@ const Projects = () => {
           </a>
         </nav>
         <div className="mt-20">
-          <div className="main grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:ml-40">
+          <div className="main grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:ml-40 md:ml-10">
             <a
               href="https://toy-shop-client.web.app"
               rel="noreferrer"

@@ -2,7 +2,7 @@ import  { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Spin as Hamburger } from "hamburger-react";
 import { FaFacebook, FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
-import PDF from "../PDF/PDF";
+import Pdf from "../PDF/PDF";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -83,7 +83,7 @@ const Navbar = () => {
             transition={{ delay: 0.5 }}
             className=""
           >
-            <PDF></PDF>
+            <Pdf></Pdf>
           </motion.button>
         </div>
         <label className="swap swap-rotate">

@@ -4,9 +4,9 @@ import "./Skills.css";
 
 const Skills = () => {
   return (
-    <div className="lg:mt-40">
+    <div className="lg:mt-40 md:mt-20">
       <SectionTitle title={"Skills"}></SectionTitle>
-      <div className="lg:mx-20 lg:ml-96 lg:mt-40 md:ml-48 ml-10">
+      <div className="lg:mx-20 lg:ml-96 lg:mt-40 md:ml-64 ml-10">
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3  justify-center gap-5">
           <iframe
             className="lg:w-[150px] lg:h-[150px] md:w-[100px] md:h-[100px] w-[100px] h-[100px]  rounded-full "
