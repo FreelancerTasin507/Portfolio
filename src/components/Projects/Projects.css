@@ -1,0 +1,75 @@
+.naprojectNav {
+  width: 500px;
+  min-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+.projectAncor {
+  position: relative;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #a0a0a0;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+.projectAncor:before,
+.projectAncor:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  background-color: #18f08b;
+  transition: 0.5s;
+}
+.projectAncor:after {
+  left: 0;
+  bottom: -10px;
+}
+.projectAncor:before {
+  right: 0;
+  top: -10px;
+}
+.projectAncor:hover {
+  color: #ffffff;
+  background-color: #000;
+  border-radius: 10px;
+}
+.projectAncor:hover:after,
+.projectAncor:hover:before {
+  width: 100%;
+}
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+
+.colmdx {
+  border: 1px solid #000;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+}
+.colmdx:nth-child(1) {
+  background: url(https://i.ibb.co/bj4v6Gy/toy-shop-client.png);
+  background-position: top;
+  background-size: cover;
+  transition: linear 3s;
+}
+.colmdx:nth-child(2) {
+  background: url(https://i.ibb.co/rvLBkBf/screencapture-boisterous-zuccutto-ffdb67-netlify-app-2023-07-02-00-33-20.png);
+  background-position: top;
+  background-size: cover;
+  transition: linear 3s;
+}
+.colmdx:nth-child(3) {
+  background: url(https://i.ibb.co/NL9MM1L/screencapture-creative-quokka-e17099-netlify-app-2023-07-02-00-36-48.png);
+  background-position: top;
+  background-size: cover;
+  transition: linear 3s;
+}
+.colmdx:hover {
+  background-position: bottom;
+}
