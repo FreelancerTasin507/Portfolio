@@ -4,6 +4,9 @@ import Navbar from "./components/Navbar/Navbar";
 import Banner from "./components/Banner/Banner";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
+import Services from "./components/Services/Services";
+import Contact from "./components/Contact/Contact";
+import Wavify from "./components/Wavify/Wavify";
 
 function App() {
   return (
@@ -30,6 +33,9 @@ function App() {
          <Banner></Banner>
          <Skills></Skills>
          <Projects></Projects>
+         <Services></Services>
+         <Contact></Contact>
+         <Wavify></Wavify>
         </div>
       </div>
     </>
