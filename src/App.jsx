@@ -2,6 +2,7 @@ import { FaFacebook, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Banner from "./components/Banner/Banner";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         </div>
         <div>
          <Banner></Banner>
+         <Skills></Skills>
         </div>
       </div>
     </>
